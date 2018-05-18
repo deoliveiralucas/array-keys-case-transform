@@ -1,9 +1,10 @@
 # ArrayKeysCaseTransform
 
 [![Build Status](https://travis-ci.com/deoliveiralucas/array-keys-case-transform.svg?branch=master)](https://travis-ci.com/deoliveiralucas/array-keys-case-transform)
+[![Code Coverage](https://scrutinizer-ci.com/g/deoliveiralucas/array-keys-case-transform/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/deoliveiralucas/array-keys-case-transform/?branch=master)
 [![Code Quality](https://scrutinizer-ci.com/g/deoliveiralucas/array-keys-case-transform/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/deoliveiralucas/array-keys-case-transform/?branch=master)
 [![License MIT](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/deoliveiralucas/array-keys-case-transform/blob/master/LICENSE)
-[![Packagist](http://img.shields.io/packagist/v/mattketmo/camel.svg?style=flat)](https://packagist.org/packages/deoliveiralucas/array-keys-case-transform)
+[![Packagist](http://img.shields.io/packagist/v/deoliveiralucas/array-keys-case-transform.svg?style=flat)](https://packagist.org/packages/deoliveiralucas/array-keys-case-transform)
 
 Simple library to handle words case transformation from array keys.
 
@@ -67,7 +68,7 @@ Array
 
 ## Contributing ##
 
-- Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## License
 
