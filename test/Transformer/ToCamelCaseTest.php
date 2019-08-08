@@ -15,6 +15,7 @@ class ToCamelCaseTest extends TestCase
             'second item' => 'Second Item',
             'third-item'  => 'Third Item',
             'fourthItem'  => 'Fourth Item',
+            'arrayValueItem'  => ['Array Value Item'],
         ];
 
         $arrayExpected = [
@@ -22,6 +23,7 @@ class ToCamelCaseTest extends TestCase
             'secondItem' => 'Second Item',
             'thirdItem'  => 'Third Item',
             'fourthItem' => 'Fourth Item',
+            'arrayValueItem'  => ['Array Value Item'],
         ];
 
         $result = (new ToCamelCase())->transform($arrayToBeTested);

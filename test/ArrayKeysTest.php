@@ -11,16 +11,12 @@ class ArrayKeysTest extends TestCase
 
     public function testToSnakeCaseCallShouldWork() : void
     {
-        ArrayKeys::toSnakeCase([]);
-
-        $this->assertTrue(true);
+        $this->assertSame([], ArrayKeys::toSnakeCase([]));
     }
 
     public function testToCamelCaseCallShouldWork() : void
     {
-        ArrayKeys::toCamelCase([]);
-
-        $this->assertTrue(true);
+        $this->assertSame([], ArrayKeys::toCamelCase([]));
     }
 
     public function testTransformCallShouldWork() : void
@@ -32,8 +28,6 @@ class ArrayKeysTest extends TestCase
             }
         };
 
-        ArrayKeys::transform($converter, []);
-
-        $this->assertTrue(true);
+        $this->assertSame([], ArrayKeys::transform($converter, []));
     }
 }
