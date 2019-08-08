@@ -15,6 +15,7 @@ class ToSnakeCaseTest extends TestCase
             'second item' => 'Second Item',
             'third-item'  => 'Third Item',
             'fourth_item' => 'Fourth Item',
+            'arrayValueItem'  => ['Array Value Item'],
         ];
 
         $arrayExpected = [
@@ -22,6 +23,7 @@ class ToSnakeCaseTest extends TestCase
             'second_item' => 'Second Item',
             'third_item'  => 'Third Item',
             'fourth_item' => 'Fourth Item',
+            'array_value_item'  => ['Array Value Item'],
         ];
 
         $result = (new ToSnakeCase())->transform($arrayToBeTested);
