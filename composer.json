@@ -21,7 +21,11 @@
     },
     "autoload": {
         "psr-4": {
-            "ArrayKeysCaseTransform\\": "src",
+            "ArrayKeysCaseTransform\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "Tests\\": "test"
         }
     },
