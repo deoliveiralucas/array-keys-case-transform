@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Transformer;
+namespace ArrayKeysCaseTransformTest\Transformer;
 
 use ArrayKeysCaseTransform\Transformer\ToSnakeCase;
 use PHPUnit\Framework\TestCase;
@@ -28,6 +28,6 @@ class ToSnakeCaseTest extends TestCase
 
         $result = (new ToSnakeCase())->transform($arrayToBeTested);
 
-        $this->assertEquals($arrayExpected, $result);
+        self::assertEquals($arrayExpected, $result);
     }
 }

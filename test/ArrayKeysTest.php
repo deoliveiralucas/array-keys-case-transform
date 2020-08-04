@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace ArrayKeysCaseTransformTest;
 
 use ArrayKeysCaseTransform\ArrayKeys;
 use ArrayKeysCaseTransform\Transformer\AbstractTransformer;
@@ -11,12 +11,12 @@ class ArrayKeysTest extends TestCase
 
     public function testToSnakeCaseCallShouldWork() : void
     {
-        $this->assertSame([], ArrayKeys::toSnakeCase([]));
+        self::assertSame([], ArrayKeys::toSnakeCase([]));
     }
 
     public function testToCamelCaseCallShouldWork() : void
     {
-        $this->assertSame([], ArrayKeys::toCamelCase([]));
+        self::assertSame([], ArrayKeys::toCamelCase([]));
     }
 
     public function testTransformCallShouldWork() : void
@@ -28,6 +28,6 @@ class ArrayKeysTest extends TestCase
             }
         };
 
-        $this->assertSame([], ArrayKeys::transform($converter, []));
+        self::assertSame([], ArrayKeys::transform($converter, []));
     }
 }
