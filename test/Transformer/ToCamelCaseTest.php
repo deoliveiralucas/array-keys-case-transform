@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\ArrayKeysCaseTransform\Transformer;
+namespace Tests\Transformer;
 
 use ArrayKeysCaseTransform\Transformer\ToCamelCase;
 use PHPUnit\Framework\TestCase;
